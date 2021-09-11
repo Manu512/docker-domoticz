@@ -10,7 +10,8 @@ exec \
 		-approot /usr/share/domoticz/ \
 		-dbase /config/domoticz.db \
 		-noupdate \
-		-sslwww 1443 \
+        -www 80 \
+		-sslwww 443 \
 		-sslcert /config/keys/server_cert.pem \
 		-userdata /config/ \
 		-webroot "${RUN_ARRAY[@]}"

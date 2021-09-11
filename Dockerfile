@@ -67,4 +67,4 @@ RUN \
 COPY root/ /
 
 # expose ports
-EXPOSE 1443 6144 8080
+EXPOSE 443 6144 80
